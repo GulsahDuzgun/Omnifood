@@ -12,6 +12,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   color: #555;
@@ -19,15 +23,14 @@ body {
   font-weight: 400;
 }
 
-html {
-  /*1rem = 16px --default*/
-  font-size: 25%;
+.section-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 130rem;
+  margin: 0 auto;
+  background-color: lightgreen;
 }
 
-.test {
-  background-color: orangered;
-  /* width: 1000px; */
-  max-width: 50rem;
-  font-size: 2rem;
-  padding: 4rem;
+.hero-img {
+  width: 100%;
 }
