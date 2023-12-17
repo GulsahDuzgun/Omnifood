@@ -18,3 +18,10 @@ body {
   line-height: 1;
   font-weight: 400;
 }
+
+.test {
+  background-color: orangered;
+  padding: 50px;
+  /* width: 1000px; */
+  max-width: 1000px;
+}
