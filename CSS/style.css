@@ -19,9 +19,15 @@ body {
   font-weight: 400;
 }
 
+html {
+  /*1rem = 16px --default*/
+  font-size: 25%;
+}
+
 .test {
   background-color: orangered;
-  padding: 50px;
   /* width: 1000px; */
-  max-width: 1000px;
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 4rem;
 }
