@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #555;
   line-height: 1;
   font-weight: 400;
@@ -60,12 +60,14 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+  font-weight: 600;
 }
 
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
+  font-size: 600;
 }
 
 .btn--outline:link,
