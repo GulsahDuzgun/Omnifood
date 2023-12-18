@@ -87,6 +87,41 @@ body {
 .logo {
   height: 2.4rem;
 }
+/*--------- MAIN-NAV SECTION ---------*/
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.nav-cta.main-nav-link:link,
+.nav-cta.main-nav-link:visited {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+
+.nav-cta.main-nav-link:hover,
+.nav-cta.main-nav-link:active {
+  background-color: #cf711f;
+}
 
 /*--------- HERO SECTION ---------*/
 
