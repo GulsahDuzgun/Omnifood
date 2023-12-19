@@ -144,4 +144,6 @@ strong {
 .link:hover,
 .link:active {
   color: #cf711f;
+  /* border-bottom: none; */
+  border-bottom: 2px solid transparent;
 }
