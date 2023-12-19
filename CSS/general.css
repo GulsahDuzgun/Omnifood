@@ -147,3 +147,7 @@ strong {
   /* border-bottom: none; */
   border-bottom: 2px solid transparent;
 }
+
+.center-text {
+  text-align: center;
+}
