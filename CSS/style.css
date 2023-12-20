@@ -347,6 +347,39 @@
   padding: 9.6rem 0;
 }
 
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  padding: 4.6rem;
+  border: 2px solid #fae5d3;
+}
+
+.pricing-plan--complete {
+  position: relative;
+  padding: 4.8rem;
+  background-color: #fae5d3;
+  overflow: hidden;
+}
+
+.pricing-plan--complete::after {
+  display: block;
+  position: absolute;
+  content: "Best Value";
+  top: 5%;
+  right: -12%;
+  background-color: #ffd43b;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0.8rem 4rem;
+  color: #333;
+  transform: rotate(45deg);
+}
+
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -384,4 +417,8 @@
   align-items: center;
   justify-content: center;
   margin: 4.8rem 0 0;
+}
+
+.space-character {
+  height: 3rem;
 }
