@@ -12,6 +12,13 @@
   margin: 0;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dashed #cf711f;
+  outline-offset: 4px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 html {
   font-size: 62.5%; /*1rem = 10px*/
 }
@@ -92,6 +99,7 @@ body {
   text-transform: uppercase;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -101,6 +109,21 @@ body {
   border-radius: 9px;
   transition: all 0.3s;
   font-weight: 600;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: flex-end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .btn--full:link,

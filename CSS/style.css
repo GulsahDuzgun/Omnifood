@@ -27,6 +27,8 @@
   font-size: 1.8rem;
   font-weight: 500;
   transition: all 0.3s;
+  border-radius: 11px;
+  padding: 1.6rem 3.2rem;
 }
 
 .main-nav-link:hover,
@@ -480,11 +482,13 @@
 
 .cta-text-box {
   padding: 4.8rem 6.4rem 6.4rem;
+  color: #45260a;
 }
 
 .cta .heading-secondary {
-  color: #45260a;
+  /* color: #45260a; */
   margin-bottom: 3.2rem;
+  color: inherit;
 }
 
 .cta .cta-text {
@@ -498,4 +502,39 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 4.8rem;
   row-gap: 3.2rem;
+}
+
+.cta-form label {
+  display: block;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.cta-form input,
+.cta-form select {
+  font-family: inherit;
+  color: inherit;
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #fae5d3;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta-form input:hover,
+.cta-form input:active,
+.cta-form input:focus {
+  border: none;
+}
+
+.cta-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
