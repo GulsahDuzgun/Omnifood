@@ -27,8 +27,8 @@
   font-size: 1.8rem;
   font-weight: 500;
   transition: all 0.3s;
-  border-radius: 11px;
-  padding: 1.6rem 3.2rem;
+  border-radius: 19px;
+  padding: 0.8rem 1.2rem;
 }
 
 .main-nav-link:hover,
@@ -40,7 +40,7 @@
 .nav-cta.main-nav-link:visited {
   background-color: #e67e22;
   color: #fff;
-  padding: 1.2rem 2.4rem;
+  padding: 1.2rem 1.6rem;
   border-radius: 9px;
 }
 
@@ -219,7 +219,7 @@
 }
 
 .meal-content {
-  padding: 3.2rem 4rem 4rem;
+  padding: 3.2rem 4.8rem 4.8rem;
 }
 
 .meal-tags {
@@ -460,7 +460,6 @@
 
 .cta {
   display: grid;
-  height: 50rem;
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.15);
