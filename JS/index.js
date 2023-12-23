@@ -3,6 +3,14 @@ const yearElement = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 yearElement.textContent = currentYear;
 
+//toggle btn
+const toggleBtn = document.querySelector(".btn-mobile-nav");
+const header = document.querySelector(".header");
+
+toggleBtn.addEventListener("click", () => {
+  header.classList.toggle("nav-open");
+});
+
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
