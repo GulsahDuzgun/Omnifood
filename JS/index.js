@@ -25,6 +25,10 @@ allLinks.forEach((el) => {
     else if (href !== "#" && href.startsWith("#")) {
       const section = document.querySelector(href);
       section.scrollIntoView({ behavior: "smooth" });
+
+      if (el.classList.contains("main-nav-link")) {
+        header.classList.toggle("nav-open");
+      }
     }
   });
 });
