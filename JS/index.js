@@ -11,6 +11,24 @@ toggleBtn.addEventListener("click", () => {
   header.classList.toggle("nav-open");
 });
 
+const allLinks = document.querySelectorAll("a:link");
+allLinks.forEach((el) => {
+  el.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const href = el.getAttribute("href");
+    if (href === "#")
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    else if (href !== "#" && href.startsWith("#")) {
+      const section = document.querySelector(href);
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
