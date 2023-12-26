@@ -27,4 +27,7 @@ _When I created the website from scratch, I learned how to create and implement 
 <br/>
 
 ![pc-version](img/final-version/pc-version1.png)
+<br/>
+<br/>
+
 <img src="img/final-version/mobile-version1.png" width="250" />
